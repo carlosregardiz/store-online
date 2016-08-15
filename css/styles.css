@@ -32,21 +32,21 @@ header nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  max-width: 1300px;
+  max-width: 900px;
   flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 10px;
+
 }
 header nav form {
   display: inline-block;
 }
 header nav form input[type=text]{
   text-decoration: line-through;
-  font-size: 1.5em;
-  width: 600px;
+  font-size: 1.3em;
+  max-width: 100%;
   height: 40px;
   margin-top: 2.3px;
-  border-radius: 10px;
+
 }
 header nav form input[type=submit]{
   width: 40px;
@@ -69,6 +69,7 @@ header nav ul li {
 }
 #banner{
   width: 100%;
+  height: 100%;
   margin-top: 10px;
 }
 #maincontainer{
@@ -89,12 +90,13 @@ header nav ul li {
   align-items: baseline;
 }
 .galerycontainer img{
-  margin-bottom: 40px;
-
-}
-h2{
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .Categories-container {
 
@@ -130,6 +132,17 @@ footer{
   background-color: black;
 }
 
+button{
+  font-size:13px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#FF4D00;
+  width:80px;
+  height:25px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
 
 
 /*Aqui comenamos con el mains7*/
@@ -199,7 +212,7 @@ margin-top: 30px;
 }
 
 p{
-  width: 800px;
+  width: 100%;
   margin-top: 40px;
   text-align: justify;
 }
